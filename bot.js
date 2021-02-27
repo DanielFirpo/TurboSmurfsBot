@@ -44,7 +44,7 @@ function doUserAuth() {
 
             return new Promise(resolve => {
 
-                rl.question('\n\nThis bot requires you to log in with Discord on turbosmurfs.gg so it can save the cookies and use them in the future. \n\nThis bot will not save your password or username, and saved cookies can be deleted at any time (delete cookies.json). \n\n login with Discord on turbosmurfs.gg in the newly opened chrome window, then press enter here when finished.\n\n', (input) => {
+                rl.question('\n\nThis bot requires you to log in with Discord on turbosmurfs.gg so it can save the cookies and use them in the future. \n\nThis bot will not save your password or username, and saved cookies can be deleted at any time (delete cookies.json). \n\n login with Discord on turbosmurfs.gg in the newly opened chrome window by scrolling down and pressing the "Login With Discord" button, then press enter here when finished.\n\n', (input) => {
                     rl.close();
                     resolve(input)
                 });
