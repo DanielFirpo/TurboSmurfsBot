@@ -1,0 +1,25 @@
+{
+  "name": "turbosmurfsbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "dependencies": {
+    "node-wav-player": "^0.2.0",
+    "puppeteer": "^7.1.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielFirpo/TurboSmurfsBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielFirpo/TurboSmurfsBot/issues"
+  },
+  "homepage": "https://github.com/DanielFirpo/TurboSmurfsBot#readme"
+}
