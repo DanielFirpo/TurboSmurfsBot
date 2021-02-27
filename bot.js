@@ -29,10 +29,7 @@ function doSetup() {
 
 function doUserAuth() {
 
-    console.log("do user auth");
-
     let login = async () => {
-        console.log("asynch");
         const browser = await puppeteer.launch({ headless: false });
         const page = await browser.newPage();
 
