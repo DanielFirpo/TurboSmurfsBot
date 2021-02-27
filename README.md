@@ -1,5 +1,5 @@
 # TurboSmurfsBot
-###### A basic web bot that checks https://turbosmurfs.gg/free-lol-account every 24 hours for you.
+#### A basic web bot that checks https://turbosmurfs.gg/free-lol-account every 24 hours for you.
 
 ![Bot Screenshot](https://raw.githubusercontent.com/DanielFirpo/TurboSmurfsBot/master/Capture.PNG)
 
@@ -13,18 +13,19 @@ This bot will check for a free account every 24 hours, so you can set it running
 
 These instructions are for Windows but should be similar for OS X users.
 
-1. Install Node.js 
+##### 1. Install Node.js 
 
 Install Node.js from [https://nodejs.org/en/download/](https://nodejs.org/en/download/). Keep all install options default.
 
-2. Download Bot
+##### 2. Download Bot
 
-Download the zip file.
+Download the zip file from the green "Code" button at the top of this page.
+
 ![Download Screenshot](https://raw.githubusercontent.com/DanielFirpo/TurboSmurfsBot/master/tempsnip.png)
 
 Unzip the downloaded folder.
 
-3. Install npm packages.
+#####  3. Install npm packages.
 
 Open a new cmd command prompt. Navigate inside the 'TurboSmurfsBot-master' folder you just unzipped (should contain bot.js and other files) with `cd` command. For example if you downloaded to your Desktop: `cd Desktop`, then `cd TurboSmurfsBot-master`.
 
