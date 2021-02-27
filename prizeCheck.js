@@ -51,7 +51,7 @@ let doPrizeCheck = async () => {
     browser.close();
 
     //record last time we checked prize
-    fs.writeFile('lastcheck.txt', Date.now(), error => {
+    fs.writeFile('lastcheck.txt', Date.now().toString(), error => {
         if (error) {
             console.error(error);
             return;

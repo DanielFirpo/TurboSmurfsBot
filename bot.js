@@ -10,7 +10,7 @@ function doSetup() {
 
     if (!fs.existsSync("lastcheck.txt")) {
         //first time running program, create file. set last checked to 24+ hours ago so we check now
-        fs.writeFile('./lastcheck.txt', Date.now() - 86409119, error => {
+        fs.writeFile('./lastcheck.txt', (Date.now() - 86409119).toString(), error => {
             if (error) {
                 console.error(error);
                 return;
