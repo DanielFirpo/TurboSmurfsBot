@@ -6,7 +6,7 @@
 ## What is this for?
 
 I noticed that a website ([https://turbosmurfs.gg](https://turbosmurfs.gg)) is giving away free level 30 League of Legends smurf accounts on their "Free LoL Account" page ([https://turbosmurfs.gg/free-lol-account](https://turbosmurfs.gg/free-lol-account)).
-The site lets you "open a lootbox" every 24 hours that usually contains a coupon, but also has a small chance to give you a free level 30 account. I've been wanting learn how to make a web bot for a while now and this site seemed like a good way to do that.
+The site lets you "open a lootbox" every 24 hours that usually contains a coupon, but also has a small chance to give you a free level 30 account. I've been wanting to learn how to make a web bot for a while now and this site seemed like a good way to do that.
 This bot will check for a free account every 24 hours, so you can set it running and then forget about it, and it might grab you a free account!
 
 ## Installation
