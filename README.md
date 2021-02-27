@@ -1,7 +1,7 @@
 # TurboSmurfsBot
 #### A basic web bot that checks https://turbosmurfs.gg/free-lol-account every 24 hours for you.
 
-![Bot Screenshot](https://raw.githubusercontent.com/DanielFirpo/TurboSmurfsBot/master/Capture.PNG)
+![Bot Screenshot](https://raw.githubusercontent.com/DanielFirpo/TurboSmurfsBot/master/GithubImages/Capture.PNG)
 
 ## What is this for?
 
@@ -21,7 +21,7 @@ Install Node.js from [https://nodejs.org/en/download/](https://nodejs.org/en/dow
 
 Download the zip file from the green "Code" button at the top of this page.
 
-![Download Screenshot](https://raw.githubusercontent.com/DanielFirpo/TurboSmurfsBot/master/tempsnip.png)
+![Download Screenshot](https://raw.githubusercontent.com/DanielFirpo/TurboSmurfsBot/master/GithubImages/tempsnip.png)
 
 Unzip the downloaded folder.
 
