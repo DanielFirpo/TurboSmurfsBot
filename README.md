@@ -39,7 +39,7 @@ Type `node bot.js`.
 
 OR
 
-Double click to run the start.bat file.
+Double click the `start.bat` file.
 
 
 The bot will have you do some one-time setup, and after it will check every 24 hours for you. Check the console every 24 hours for results. The bot will also save a screenshot of any free account result in the bot's folder.
