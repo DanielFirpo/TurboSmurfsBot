@@ -56,4 +56,4 @@ Type `shell:startup` and press enter.
 
 Copy/Cut `start.bat - Shortcut`, then paste into newly opened Startup folder.
 
-The bot will now open automatically when windows starts.
+The bot will now open automatically when Windows starts.
