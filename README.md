@@ -44,7 +44,7 @@ Double click to run the start.bat file.
 
 The bot will have you do some one-time setup, and after it will check every 24 hours for you. Check the console every 24 hours for results. The bot will also save a screenshot of any free account result in the bot's folder.
 
-## Auto Running on Startup
+## Auto-Running on Startup
 
 For Windows 8+
 
@@ -56,3 +56,4 @@ Type `shell:startup` and press enter.
 
 Copy/Cut `start.bat - Shortcut`, then paste into newly opened Startup folder.
 
+The bot will now open automatically when windows starts.
