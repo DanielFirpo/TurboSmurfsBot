@@ -66,8 +66,8 @@ let doPrizeCheck = async () => {
 
     }
     catch {
-        console.log("\n\nError checking prize. Do you have internet?\n\n\n\n Trying again in 20 seconds.")
-        setTimeout(doPrizeCheck, 20000)
+        console.log("\n\nError checking prize. Do you have internet?\n\n\n\n Trying again in 60 seconds.")
+        setTimeout(doPrizeCheck, 60000)
     }
 
 };
