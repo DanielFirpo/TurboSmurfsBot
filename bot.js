@@ -1,8 +1,13 @@
-const puppeteer = require('puppeteer');
 const fs = require('fs')
 const readline = require("readline");
 const input = require('readline-sync');
 let doPrizeCheck = require("./prizeCheck");
+
+const puppeteer = require('puppeteer-extra')//puppeteer but with plugins
+
+// stealth plugin to bypass cloudfare DDOS protection page
+const StealthPlugin = require('puppeteer-extra-plugin-stealth')
+puppeteer.use(StealthPlugin())
 
 doSetup();
 

@@ -1,14 +1,19 @@
 const fs = require('fs')
-const puppeteer = require('puppeteer');
 const player = require('node-wav-player');
+const puppeteer = require('puppeteer-extra')//puppeteer but with plugins
+
+// stealth plugin to bypass cloudfare DDOS protection page
+const StealthPlugin = require('puppeteer-extra-plugin-stealth')
+puppeteer.use(StealthPlugin())
 
 let doPrizeCheck = async () => {
+
+    const browser = await puppeteer.launch({ headless: false });
 
     try {
 
         console.log("\n\nChecking prize...\n\n")
 
-        const browser = await puppeteer.launch({ headless: true });
         const page = await browser.newPage();
 
         const cookiesString = fs.readFileSync("cookies.json");
@@ -67,6 +72,7 @@ let doPrizeCheck = async () => {
     }
     catch {
         console.log("\n\nError checking prize. Do you have internet?\n\n\n\n Trying again in 60 seconds.")
+        browser.close();
         setTimeout(doPrizeCheck, 60000)
     }
 
