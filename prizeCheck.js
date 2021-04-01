@@ -8,7 +8,7 @@ puppeteer.use(StealthPlugin())
 
 let doPrizeCheck = async () => {
 
-    const browser = await puppeteer.launch({ headless: false });
+    const browser = await puppeteer.launch({ headless: true });
 
     try {
 
