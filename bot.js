@@ -35,7 +35,7 @@ function doSetup() {
 function doUserAuth() {
 
     let login = async () => {
-        const browser = await puppeteer.launch({ headless: true });
+        const browser = await puppeteer.launch({ headless: false });
         const page = await browser.newPage();
 
         await page.goto('https://turbosmurfs.gg/free-lol-account');

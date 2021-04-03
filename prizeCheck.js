@@ -25,7 +25,7 @@ let doPrizeCheck = async () => {
             }
         }
         await page.goto('https://turbosmurfs.gg/free-lol-account');
-        await page.waitFor(5000);
+        await page.waitFor(10000);
 
         await page.click('#open_lootbox');
 
